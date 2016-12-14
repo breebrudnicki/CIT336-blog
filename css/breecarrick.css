@@ -1,0 +1,90 @@
+/*header*/
+header{
+    height: 200px;   
+    background-color: #cdffff;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+.headerimg {
+    height: inherit;
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+.h1header {
+    padding-top: 30px;  
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+.h2header {
+    margin-top: 0px;
+}
+mark {
+    background-color: inherit;
+    color: #ff0000;
+}
+.line {
+    letter-spacing: -3px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: #4fd5d6;
+}
+
+/*Navigation*/
+
+/*Page Styles*/
+main {
+    margin: auto;
+    width: 900px;
+}
+h1, h2, h3, li, a, p {
+    font-family: sans-serif;   
+    color: #400D12;
+}
+li {
+    list-style-type: none;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+main > a:link {
+    color: #4fd5d6;
+}
+main > a:visited {
+    color: #4fd5d6;
+}
+main > a:hover {
+    color: #ff0000;
+}
+
+/*Exercises Page*/
+.exercises {
+    display: inline;
+    float: left;
+    width: 300px;
+    padding: 30px;
+}
+.enhancements {
+    display: inline;
+    float: left;
+    width: 300px;
+    padding: 30px;
+}
+
+/*footer*/
+footer {
+    background-color: #400D12;
+    clear: both;
+    margin: auto;
+}
+.copyright {
+    color: #cdffff;   
+}
+.footer {
+    color: #cdffff;   
+}
+footer > a {
+    color: #cdffff;
+}

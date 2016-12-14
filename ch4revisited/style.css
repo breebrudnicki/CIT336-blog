@@ -1,0 +1,52 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+header{
+	position: relative;
+}
+
+#tools{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+input, label{
+	display: block;
+}
+
+fieldset{
+	border: none;
+}
+
+input[name=firstName]{
+	width: 10em;
+}
+
+input[name=lastName]{
+	width: 15em;
+}
+
+input[name=email]{
+	width: 25em;
+}
+
+//table
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+

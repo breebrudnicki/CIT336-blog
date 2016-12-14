@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2016, 2:43:36 PM
+    Author     : breecarrick
+*/
+/*header*/
+header{
+    height: 200px;   
+    background-color: #cdffff;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+.headerimg {
+    height: inherit;
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+.h1header {
+    padding-top: 30px;  
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+.h2header {
+    margin-top: 0px;
+}
+mark {
+    background-color: inherit;
+    color: #ff0000;
+}
+.line {
+    letter-spacing: -3px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: #4fd5d6;
+}
+
+/*Navigation*/
+
+/*Page Styles*/
+main {
+    margin: auto;
+    width: 900px;
+}
+h1, h2, h3, li, a, p {
+    font-family: sans-serif;   
+    color: #400D12;
+}
+li {
+    list-style-type: none;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Exercises Page*/
+.exercises {
+    display: inline;
+    float: left;
+    width: 300px;
+    padding: 30px;
+}
+.enhancements {
+    display: inline;
+    float: left;
+    width: 300px;
+    padding: 30px;
+}
+
+/*footer*/
+footer {
+    background-color: #400D12;
+    clear: both;
+}
+.copyright {
+    color: #cdffff;   
+}
+.footer {
+    color: #cdffff;   
+}
+a {
+    color: #cdffff;
+}

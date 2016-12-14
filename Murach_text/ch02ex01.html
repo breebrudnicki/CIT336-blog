@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+        <!--header-->
+    <header>
+        <img class="headerimg" src="breecarrick.png" alt="Bree Carrick">
+        <h1 class="h1header"> Hi, I'm <mark>Bree Carrick</mark> </h1>
+        <p class="line">----------------------------------------------</p>
+        <h2 class="h2header">Web Designer and Developer</h2>   
+    </header>
+    <main>
+        <div class=exercises>
+        <h1>Product Discount Calculator</h1>
+        <form action="display_discount.php" method="post">
+
+            <div id="data">
+                <label>Product Description:</label>
+                <input type="text" name="product_description"><br>
+
+                <label>List Price:</label>
+                <input type="text" name="list_price"><br>
+
+                <label>Discount Percent:</label>
+                <input type="text" name="discount_percent"><span>%</span><br>
+            </div>
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"><br>
+            </div>
+
+        </form>
+        </div>
+    </main>
+     <!--footer-->   
+     <footer>
+        <p class="copyright"> &copy; 2016. Bree Carrick. All rights reserved.</p>
+        <a class="footer" href="exercises.php">CIT 336 Exercises</a>
+        <a class="footer" href=".">About</a>
+        <a class="footer" href=".">Portfolio</a>
+        <a class="footer" href=".">Contact</a>
+    </footer>
+</body>
+</html>
+

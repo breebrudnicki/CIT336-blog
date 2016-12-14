@@ -1,0 +1,38 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+header{
+	position: relative;
+}
+
+#tools{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+input, label{
+	display: block;
+}
+
+fieldset{
+	border: none;
+}
+
+input[name=firstName]{
+	width: 10em;
+}
+
+input[name=lastName]{
+	width: 15em;
+}
+
+input[name=email]{
+	width: 25em;
+}
+
+
